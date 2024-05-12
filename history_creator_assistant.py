@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/14Ce3t0wgvzW56aW0BCHEwtCXc4qa-7tX
 """
 
-pip install google-generativeai fastapi nest-asyncio pyngrok uvicorn
-
 import os
 import google.generativeai as genai
 import nest_asyncio
