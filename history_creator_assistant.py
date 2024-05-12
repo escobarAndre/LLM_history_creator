@@ -13,16 +13,17 @@ import nest_asyncio
 import uvicorn
 import requests
 
-from google.colab import userdata
 from fastapi import FastAPI
 from pyngrok import ngrok, conf
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Autenticação NGROK
-os.environ["NGROK"] = userdata.get('NGROK_TOKEN')
 conf.get_default().auth_token = os.environ["NGROK"]
 
 # Configuração da chave da API
-genai.configure(api_key=userdata.get('GEMINI_API_KEY'))
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Configuração do modelo
 generation_config = {
