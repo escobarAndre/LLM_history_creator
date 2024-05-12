@@ -93,6 +93,15 @@ A resposta da API será um texto contendo a história gerada.
 "Os Amigos Queridos. Em um dia ensolarado, três amigos corajosos decidiram explorar a Floresta Encantada, um lugar cheio de magia e mistério. Eles riam e cantavam enquanto caminhavam, animados para descobrir o que os aguardava. De repente, um esquilo falante apareceu em seu caminho, surpreendendo-os! Eles continuaram sua jornada, encontrando pontes de arco-íris e árvores falantes pelo caminho. Quando uma tempestade repentina os pegou de surpresa, eles se abraçaram, mas logo encontraram um abrigo seguro em uma toca de coelho, enchendo-os de alívio."
 ```
 
+## Subindo o Arquivo history_creator_assistant.ipynb no Google Colab
+Se você prefere utilizar o Google Colab para executar o projeto, siga estas etapas:
+
+1. Faça upload do arquivo X.pynb:
+
+Acesse o Google Colab (https://colab.research.google.com/).
+Clique no botão "Carregar arquivos" e selecione o arquivo x.pynb do seu computador.
+Configure as variaveis de ambiente e rode as células
+
 **Dicas Adicionais:**
 
 * Você pode usar ferramentas como Postman ou Insomnia para testar e explorar a API de forma interativa.

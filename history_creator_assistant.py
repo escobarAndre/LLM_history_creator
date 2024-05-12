@@ -14,6 +14,7 @@ load_dotenv()
 conf.get_default().auth_token = os.environ["NGROK"]
 
 # Configuração da chave da API
+
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Configuração do modelo
