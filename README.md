@@ -96,7 +96,6 @@ A resposta da API será um texto contendo a história gerada.
 **Dicas Adicionais:**
 
 * Você pode usar ferramentas como Postman ou Insomnia para testar e explorar a API de forma interativa.
-* A documentação completa da API está disponível em [https://www.linguee.es/portugues-espanol/traduccion/documenta%C3%A7%C3%A3o.html](https://www.linguee.es/portugues-espanol/traduccion/documenta%C3%A7%C3%A3o.html).
 * Consulte a seção "Exemplos de Uso" no README para obter ideias de como usar a API para criar histórias incríveis.
 
 **Exemplos de Uso**
